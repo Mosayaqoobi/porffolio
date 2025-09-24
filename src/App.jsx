@@ -9,11 +9,13 @@ function App() {
         <h1>My Projects</h1>
       </header>
       <main>
+        <section id="home">...</section>
         <div className="grid">
           {projects.map((p) => (
             <Card key={p.title} {...p} />
           ))}
         </div>
+        <section id="contact">...</section>
       </main>
     </div>
   );
