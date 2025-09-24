@@ -67,6 +67,14 @@ main {
     inset: 0;
     background: rgba(0, 0, 0, 0.4);
     border-radius: inherit;
+    pointer-events: none;
+    z-index: 0;
+}
+
+/* make sure inner content is above the overlay */
+.card > * {
+    position: relative;
+    z-index: 1;
 }
 .card:hover,
 .card:focus-visible {
@@ -246,4 +254,42 @@ main {
     html {
         scroll-behavior: auto;
     }
+}
+
+/* Smaller cards for contact area */
+.contact-grid {
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+}
+
+.contact-card {
+    min-height: 140px;
+}
+
+.contact-head {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.contact-icon {
+    font-size: 1.4rem;
+    line-height: 1;
+}
+
+.contact-actions {
+    display: flex;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+    margin-top: 0.75rem;
+}
+
+.contact-card .btn {
+    cursor: pointer;
+}
+.contact-card .btn:hover,
+.contact-card .btn:focus-visible {
+    transform: translateY(-1px);
+    border-color: var(--ring, #3b82f6);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.35);
+    outline: none;
 }

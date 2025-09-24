@@ -3,7 +3,7 @@ export const projects = [
     title: "Event App",
     description: "Java + Firebase",
     href: "https://github.com/CMPUT301F24minion/minion-vector",
-    image: "./public/images/main.png",
+    image: "",
   },
   {
     title: "Library Database System",
