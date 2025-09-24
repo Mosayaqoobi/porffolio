@@ -72,12 +72,12 @@ main {
 .card:focus-visible {
     transform: translateY(-2px);
     box-shadow: 0 8px 24px rgba(0, 0, 0, 0.35);
-    border-color: var(--ring);
     outline: none;
 }
 .card h3 {
     margin: 0;
     font-size: 2rem;
+    color: var(--text);
 }
 .card p {
     margin: 0;
