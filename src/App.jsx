@@ -1,5 +1,5 @@
 import ContactSection from "./Components/ContactSection.jsx";
-import Hero from "./Components/HeroSection.jsx";
+import Hero from "./Components/Hero.jsx";
 import ProjectSection from "./Components/ProjectSection.jsx";
 import "./index.css";
 
@@ -7,12 +7,11 @@ function App() {
   return (
     <div>
       <header className="site-nav">
-        <a href="#home" className="brand">
-          Name
-        </a>
+        <a href="#home" className="brand"></a>
         <nav>
+          <a href="#home">Home</a>
           <a href="#projects">Projects</a>
-          <a href="#Contact">Contact</a>
+          <a href="#Contacts">Contact</a>
         </nav>
       </header>
       <main>
