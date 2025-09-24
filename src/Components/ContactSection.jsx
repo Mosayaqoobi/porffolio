@@ -46,11 +46,3 @@ function ContactSection() {
   );
 }
 export default ContactSection;
-
-<a
-  className="btn"
-  href={`${import.meta.env.BASE_URL}resume.pdf`}
-  download="Mosa_Yaqoobi_Resume.pdf"
->
-  Download PDF
-</a>;
