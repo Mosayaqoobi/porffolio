@@ -1,21 +1,24 @@
-import Card from "./Components/Card";
-import { projects } from "./projects.js";
+import ContactSection from "./Components/ContactSection.jsx";
+import Hero from "./Components/HeroSection.jsx";
+import ProjectSection from "./Components/ProjectSection.jsx";
 import "./index.css";
 
 function App() {
   return (
     <div>
-      <header>
-        <h1>My Projects</h1>
+      <header className="site-nav">
+        <a href="#home" className="brand">
+          Name
+        </a>
+        <nav>
+          <a href="#projects">Projects</a>
+          <a href="#Contact">Contact</a>
+        </nav>
       </header>
       <main>
-        <section id="home">...</section>
-        <div className="grid">
-          {projects.map((p) => (
-            <Card key={p.title} {...p} />
-          ))}
-        </div>
-        <section id="contact">...</section>
+        <Hero />
+        <ProjectSection />
+        <ContactSection />
       </main>
     </div>
   );
