@@ -14,4 +14,14 @@ export const projects = [
     description: "First portfolio attempt",
     href: "https://example.com",
   },
+  {
+    title: "e4",
+    description: "something",
+    href: "https://example.com",
+  },
+  {
+    title: "e4",
+    description: "something",
+    href: "https://example.com",
+  },
 ];
