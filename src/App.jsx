@@ -8,6 +8,7 @@ function App() {
     <div>
       <header className="site-nav">
         <a href="#home" className="brand"></a>
+
         <nav>
           <a href="#home">Home</a>
           <a href="#projects">Projects</a>
