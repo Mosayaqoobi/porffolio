@@ -1,6 +1,6 @@
 function ContactSection() {
   return (
-    <section id="contacts" classname="section">
+    <section id="contact" classname="section contact">
       <h2>Contact me</h2>
       <ul classname="contact-list">
         <li>

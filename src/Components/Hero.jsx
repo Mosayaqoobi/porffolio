@@ -3,13 +3,12 @@ function Hero() {
     <section id="home" className="section hero">
       <div className="hero-inner">
         <h1 className="hero-title">Mosa Yaqoobi</h1>
-        <p className="hero-tagline">Computer science</p>
-
+        <p className="hero-tagline">
+          Computer science Student actively looking to gain experience in any
+          field of algorithms, AI/ML, and software engineering
+        </p>
         <div className="hero-actions">
-          <a className="btn primary" href="#projects">
-            see projects
-          </a>
-          <a className="btn" href="#contacts">
+          <a className="btn" href="#contact">
             Contact Me
           </a>
         </div>

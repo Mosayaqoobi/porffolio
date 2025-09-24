@@ -11,7 +11,7 @@ function App() {
         <nav>
           <a href="#home">Home</a>
           <a href="#projects">Projects</a>
-          <a href="#Contacts">Contact</a>
+          <a href="#contact">Contact</a>
         </nav>
       </header>
       <main>
