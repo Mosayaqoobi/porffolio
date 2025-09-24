@@ -1,6 +1,6 @@
-import ContactSection from "./Components/ContactSection.jsx";
-import Hero from "./Components/Hero.jsx";
-import ProjectSection from "./Components/ProjectSection.jsx";
+import ContactSection from "./components/ContactSection.jsx";
+import Hero from "./components/Hero.jsx";
+import ProjectSection from "./components/ProjectSection.jsx";
 import "./index.css";
 
 function App() {
