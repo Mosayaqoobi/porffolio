@@ -23,7 +23,7 @@ function ContactSection() {
         <ContactCard icon="📄" title="Resume">
           <a
             className="btn"
-            href={`${import.meta.env.BASE_URL}Resume.pdf`}
+            href={`${import.meta.env.BASE_URL}resume.pdf`}
             download="Mosa_Yaqoobi_Resume.pdf"
           >
             Download PDF
@@ -46,3 +46,11 @@ function ContactSection() {
   );
 }
 export default ContactSection;
+
+<a
+  className="btn"
+  href={`${import.meta.env.BASE_URL}resume.pdf`}
+  download="Mosa_Yaqoobi_Resume.pdf"
+>
+  Download PDF
+</a>;
