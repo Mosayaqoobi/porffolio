@@ -1,0 +1,80 @@
+:root {
+    --bg: #0f1115;
+    --card: #171923;
+    --text: #e5e7eb;
+    --muted: #9aa0aa;
+    --ring: #3b82f6;
+}
+
+html,
+body,
+#root {
+    height: 100%;
+}
+body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family:
+        system-ui,
+        -apple-system,
+        Segoe UI,
+        Roboto,
+        sans-serif;
+}
+
+header {
+    max-width: 1000px;
+    margin: 2rem auto 1rem;
+    padding: 0 1rem;
+}
+header h1 {
+    margin: 0;
+    font-size: clamp(1.5rem, 1.2rem + 1.5vw, 2.25rem);
+}
+
+main {
+    max-width: 1000px;
+    margin: 0 auto 4rem;
+    padding: 0 1rem;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 1rem;
+}
+
+.card {
+    display: grid;
+    align-content: start;
+    gap: 0.5rem;
+    background: var(--card);
+    border: 1px solid rgba(255, 255, 255, 0.06);
+    border-radius: 12px;
+    padding: 1rem;
+    min-height: 160px; /* makes them “square-ish” */
+    text-decoration: none; /* because it’s an <a> */
+    color: inherit;
+    transition:
+        transform 120ms ease,
+        box-shadow 120ms ease,
+        border-color 120ms ease;
+}
+.card:hover,
+.card:focus-visible {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.35);
+    border-color: var(--ring);
+    outline: none;
+}
+.card h3 {
+    margin: 0;
+    font-size: 1.05rem;
+}
+.card p {
+    margin: 0;
+    color: var(--muted);
+    font-size: 0.9rem;
+    line-height: 1.35;
+}
