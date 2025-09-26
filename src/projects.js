@@ -6,8 +6,8 @@ export const projects = [
     image: "",
   },
   {
-    title: "Library Database System",
-    description: "Python + SQL",
+    title: "Full Stakc Library System",
+    description: "FastApi + OAuth2 + PostgreSQL + CSS/HTML + ReactJS",
     href: "https://github.com/Mosayaqoobi/library-management-system",
     image: "",
   },
